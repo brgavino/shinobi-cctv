@@ -22,5 +22,10 @@ sudo apt-get install -y libffi-dev libssl-dev python3 python3-pip
 sudo pip3 install docker-compose
 
 Install Shinobi (Docker)
-bash <(curl -s https://gitlab.com/Shinobi-Systems/Shinobi-Installer/raw/master/shinobi-docker.sh)
+-bash <(curl -s https://gitlab.com/Shinobi-Systems/Shinobi-Installer/raw/master/shinobi-docker.sh)-
+* This doesn't work, as Shinobi (official) doesn't provide arm32 images*
 
+Build Shinobi Docker using the "Build from Source" instructions
+* This takes a while on the Raspberry Pi
+
+TODO: Ensure Docker and Shinobi start up again, figure out if a build can be created here
