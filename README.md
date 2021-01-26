@@ -30,9 +30,9 @@ Build Shinobi Docker using the "Build from Source" instructions
 
 TODO: Ensure Docker and Shinobi start up again, figure out if a build can be created here
 
-#Cameras
+# Cameras
 - Hikvision DB1
--- FTP config: Camera name should be set to shinobi camera name, enable "parent" with name as the camera name. Item name should be timestamp or whatever - it will always be deleted
+- FTP config: Camera name should be set to shinobi camera name, enable "parent" with name as the camera name. Item name should be timestamp or whatever - it will always be deleted
 
-#Notes
+# Notes
 - Webhooks don't work with discord out of the box for some reason (or IFTT)
