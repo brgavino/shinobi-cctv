@@ -26,6 +26,7 @@ Install Shinobi (Docker)
 * This doesn't work, as Shinobi (official) doesn't provide arm32 images*
 
 Build Shinobi Docker using the "Build from Source" instructions
+https://gitlab.com/Shinobi-Systems/Shinobi/-/tree/dev/Docker#from-source
 * This takes a while on the Raspberry Pi
 
 TODO: Ensure Docker and Shinobi start up again, figure out if a build can be created here
